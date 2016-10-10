@@ -1,0 +1,21 @@
+{
+  "name": "beerlocker",
+  "version": "0.0.1",
+  "description": "A simple API example based on http://scottksmith.com/blog/2014/05/02/building-restful-apis-with-node/",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:watch": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "beer"
+  ],
+  "author": "learnercys <learnercys@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
